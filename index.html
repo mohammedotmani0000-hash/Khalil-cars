@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Khalil Cars - Location de voitures. Réservez votre voiture facilement sur WhatsApp.">
+<meta name="theme-color" content="#0b0b0b">
+<title>Khalil Cars | Location de voitures</title>
+<style>
+:root{--gold:#d6ad55;--bg:#0b0b0b;--panel:#151515;--muted:#b8b8b8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:#fff;font-family:Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#090909ed;border-bottom:1px solid #2a2418;backdrop-filter:blur(10px)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:24px;font-weight:900;letter-spacing:2px}.brand span{color:var(--gold)}
+nav a{margin-left:24px;color:#ddd;font-size:14px}nav a:hover{color:var(--gold)}
+.hero{min-height:530px;display:flex;align-items:center;background:linear-gradient(90deg,#080808 4%,#080808e8 45%,#08080830),url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1800&q=85') center/cover}
+.hero-content{max-width:650px;padding:85px 0}.eyebrow{color:var(--gold);font-weight:bold;letter-spacing:3px;text-transform:uppercase;font-size:12px}
+h1{font-size:clamp(42px,7vw,72px);line-height:1.03;margin:18px 0}.hero p{color:#d0d0d0;font-size:17px;line-height:1.7;max-width:520px}
+.btn{display:inline-block;background:var(--gold);color:#111;font-weight:800;padding:15px 22px;border-radius:4px;margin-top:18px;transition:.2s}.btn:hover{background:#f0cc79;transform:translateY(-2px)}
+section{padding:76px 0}.section-head{text-align:center;margin-bottom:36px}.section-head h2{font-size:34px;margin:10px 0}.section-head p{color:var(--muted)}
+.cars{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:22px}
+.car{background:var(--panel);border:1px solid #29251d;border-radius:9px;overflow:hidden;transition:.2s}.car:hover{transform:translateY(-5px);border-color:var(--gold)}
+.car img{width:100%;height:190px;object-fit:cover;display:block;background:#222}.car-info{padding:19px}.car h3{margin:0 0 7px;font-size:20px}.year{color:var(--gold);font-size:13px;font-weight:bold;letter-spacing:1px}.car p{color:var(--muted);font-size:14px;line-height:1.5;min-height:40px}.car .btn{width:100%;text-align:center;margin-top:8px;padding:13px}
+.about{background:#111;border-top:1px solid #262116;border-bottom:1px solid #262116}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.about h2{font-size:34px;margin:10px 0}.about p{color:#c5c5c5;line-height:1.8}.feature{padding:17px;border-left:2px solid var(--gold);background:#191919;margin:12px 0;color:#ddd}
+.contact{text-align:center}.contact h2{font-size:34px}.contact p{color:var(--muted);line-height:1.7}.phone{font-size:23px;color:var(--gold);font-weight:bold;margin:18px 0}
+footer{border-top:1px solid #29251d;padding:24px 0;color:#888;text-align:center;font-size:13px}
+.float{position:fixed;right:18px;bottom:18px;background:#20c763;color:#07150b;padding:14px 18px;border-radius:30px;font-weight:800;box-shadow:0 8px 28px #0008;z-index:6}
+@media(max-width:650px){.nav{height:66px}.brand{font-size:20px}nav a{margin-left:12px;font-size:12px}.hero{min-height:500px}.hero-content{padding:65px 0}.about-grid{grid-template-columns:1fr}section{padding:58px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#">KHALIL <span>CARS</span></a>
+  <nav><a href="#voitures">Nos voitures</a><a href="#apropos">À propos</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap"><div class="hero-content">
+  <div class="eyebrow">Location de voitures</div>
+  <h1>La route vous<br><span style="color:var(--gold)">appartient.</span></h1>
+  <p>Découvrez notre sélection de véhicules et choisissez celui qui vous accompagne dans vos déplacements. Réservation simple et rapide sur WhatsApp.</p>
+  <a class="btn" href="#voitures">DÉCOUVRIR NOS VOITURES</a>
+</div></div></section>
+<section id="voitures"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Notre sélection</div><h2>Nos voitures</h2><p>Choisissez votre modèle et contactez-nous pour réserver.</p></div>
+  <div class="cars">
+    <article class="car"><img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=900&q=80" alt="Voiture citadine"><div class="car-info"><div class="year">MODÈLE 2026</div><h3>Dacia Sandero</h3><p>Confortable et pratique pour vos trajets au quotidien.</p><a class="btn" target="_blank" rel="noopener" href="https://wa.me/212640682954?text=Bonjour%20Khalil%20Cars%2C%20je%20souhaite%20r%C3%A9server%20la%20Dacia%20Sandero%202026.">Réserver sur WhatsApp</a></div></article>
+    <article class="car"><img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80" alt="Voiture compacte"><div class="car-info"><div class="year">MODÈLE 2026</div><h3>Renault Clio 5</h3><p>Une citadine élégante, idéale en ville comme sur route.</p><a class="btn" target="_blank" rel="noopener" href="https://wa.me/212640682954?text=Bonjour%20Khalil%20Cars%2C%20je%20souhaite%20r%C3%A9server%20la%20Clio%205%202026.">Réserver sur WhatsApp</a></div></article>
+    <article class="car"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="SUV moderne"><div class="car-info"><div class="year">MODÈLE 2026</div><h3>Renault Kardian</h3><p>Un style moderne et une position de conduite surélevée.</p><a class="btn" target="_blank" rel="noopener" href="https://wa.me/212640682954?text=Bonjour%20Khalil%20Cars%2C%20je%20souhaite%20r%C3%A9server%20la%20Renault%20Kardian%202026.">Réserver sur WhatsApp</a></div></article>
+    <article class="car"><img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=900&q=80" alt="Berline compacte"><div class="car-info"><div class="year">MODÈLE 2026</div><h3>Peugeot 208</h3><p>Design dynamique et agréable pour tous vos déplacements.</p><a class="btn" target="_blank" rel="noopener" href="https://wa.me/212640682954?text=Bonjour%20Khalil%20Cars%2C%20je%20souhaite%20r%C3%A9server%20la%20Peugeot%20208%202026.">Réserver sur WhatsApp</a></div></article>
+    <article class="car"><img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=900&q=80" alt="Voiture familiale"><div class="car-info"><div class="year">MODÈLE 2026</div><h3>Dacia Logan</h3><p>Spacieuse et fonctionnelle pour voyager tranquillement.</p><a class="btn" target="_blank" rel="noopener" href="https://wa.me/212640682954?text=Bonjour%20Khalil%20Cars%2C%20je%20souhaite%20r%C3%A9server%20la%20Dacia%20Logan%202026.">Réserver sur WhatsApp</a></div></article>
+  </div>
+</div></section>
+<section class="about" id="apropos"><div class="wrap about-grid">
+  <div><div class="eyebrow">Khalil Cars</div><h2>Votre location, en toute simplicité.</h2><p>Choisissez votre voiture, envoyez-nous votre demande sur WhatsApp et nous vous répondrons pour confirmer les détails de votre réservation.</p></div>
+  <div><div class="feature">✓ Réservation rapide par WhatsApp</div><div class="feature">✓ Plusieurs modèles au choix</div><div class="feature">✓ Contact direct et réponse personnalisée</div></div>
+</div></section>
+<section class="contact" id="contact"><div class="wrap"><div class="eyebrow">Une réservation ?</div><h2>Contactez-nous</h2><p>Écrivez-nous directement sur WhatsApp pour connaître les disponibilités et les tarifs.</p><div class="phone">+212 640-682954</div><a class="btn" target="_blank" rel="noopener" href="https://wa.me/212640682954?text=Bonjour%20Khalil%20Cars%2C%20je%20voudrais%20des%20informations%20sur%20la%20location.">CONTACTER SUR WHATSAPP</a></div></section>
+</main>
+<footer>© 2026 Khalil Cars — Tous droits réservés</footer>
+<a class="float" target="_blank" rel="noopener" href="https://wa.me/212640682954?text=Bonjour%20Khalil%20Cars%2C%20je%20voudrais%20r%C3%A9server%20une%20voiture.">WhatsApp</a>
+</body></html>
